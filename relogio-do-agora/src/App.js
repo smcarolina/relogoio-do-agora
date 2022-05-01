@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Banner from './components/Banner/Banner';
 import Clock from './components/Countdown/Clock';
 import Header from './components/Header/Header'
+import HabitsSession from './components/HabitsSession/HabitsSession';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
       <Header/>
       <Clock/>
       <Banner/>
+      <HabitsSession/>
     </Screen>
   );
 }
