@@ -5,6 +5,8 @@ export const HeaderContainer = styled.header`
     height: 10vh;
     display: flex;
     border: 1px solid black;
+    position: fixed;
+    background-color: white;
 `
 
 export const Logo = styled.img`

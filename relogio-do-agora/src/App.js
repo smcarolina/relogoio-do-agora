@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Banner from './components/Banner/Banner';
 import Clock from './components/Countdown/Clock';
 import Header from './components/Header/Header'
@@ -15,8 +16,8 @@ const App = () => {
   `
   return (
     <Screen>
-      <Header/>
-      <Clock/>
+      <Header />
+      <Clock id="home"/>
       <Banner/>
       <HabitsSession/>
     </Screen>
