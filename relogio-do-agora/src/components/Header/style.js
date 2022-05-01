@@ -9,5 +9,7 @@ export const Nav = styled.nav`
 
 export const Link = styled.a`
     text-decoration: none;
-    margin: 10px
+    margin: 10px;
+    color: #000;
+     
 `
