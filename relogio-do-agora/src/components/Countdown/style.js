@@ -7,7 +7,7 @@ export const ClockContainer = styled.div`
   width: 100%;
   align-items: center;
   margin-top: 10vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
 `;
 export const Title = styled.h1`
@@ -30,7 +30,7 @@ export const List = styled.ul`
   margin-top: 20%;
   margin-bottom: 100px;
   padding: 0;
-  border: solid 1px;
+  /* border: solid 1px; */
   text-align: center;
 `;
 
