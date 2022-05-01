@@ -18,7 +18,7 @@ const App = () => {
     <Screen>
       <Header />
       <Clock id="home"/>
-      <Banner/>
+      {/* <Banner/> */}
       <HabitsSession/>
       <Footer/>
     </Screen>
