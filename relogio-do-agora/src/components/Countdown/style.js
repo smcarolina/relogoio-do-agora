@@ -5,6 +5,9 @@ export const ClockContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
 `
 export const Title = styled.h1`
     /* color: #00ff00; */
