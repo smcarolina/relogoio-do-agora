@@ -53,12 +53,12 @@ export default class Countdown {
 
         const seconds = this.seconds % 60 
 
-        return [`${years} anos`, 
-        `${months} meses`, 
-        `${days} dias`, 
-        `${hours} horas`, 
-        `${minutes} minutos`, 
-        `${seconds} segundos`];
+        return [years, 
+        months, 
+        days, 
+        hours, 
+        minutes, 
+        seconds];
     }
 
 }

@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
 
 export const Logo = styled.img`
     height: 100%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 `
 
 export const Nav = styled.nav`

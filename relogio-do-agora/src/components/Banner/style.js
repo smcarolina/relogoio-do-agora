@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InfoBanner = styled.div`
     display: flex;
     justify-content: center;
-    width: 60vw;
+    width: 100%;
     border: 1px solid red;
     padding: 10px;
 `
