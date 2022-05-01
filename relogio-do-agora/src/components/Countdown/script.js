@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Countdown from "./countdown";
-import { Item, TimeSlot, TimeSlotLabel } from "./style";
+import { Item, List, TimeSlot, TimeSlotLabel } from "./style";
 
 const FINAL_DATE = "13 May 2050 20:00:00 GMT-0300";
 const finalDateInstance = new Date(FINAL_DATE);
@@ -40,14 +40,18 @@ export default function Timer() {
     }, ONE_SECOND);
   }, []);
 
-  return countdown.map((slot, index1) => (
-    <li key={index1}>
-      <TimeSlot>
-        {slot.time.map((value, index2) => (
-          <Item key={index2}>{value}</Item>
-        ))}
-      </TimeSlot>
-      <TimeSlotLabel>{slot.label}</TimeSlotLabel>
-    </li>
-  ));
+  return (
+    <List>
+      {countdown.map((slot, index1) => (
+        <li key={index1}>
+          <TimeSlot>
+            {slot.time.map((value, index2) => (
+              <Item key={index2}>{value}</Item>
+            ))}
+          </TimeSlot>
+          <TimeSlotLabel>{slot.label}</TimeSlotLabel>
+        </li>
+      ))}
+    </List>
+  );
 }

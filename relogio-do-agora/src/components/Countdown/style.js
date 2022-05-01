@@ -4,6 +4,7 @@ export const ClockContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   align-items: center;
   margin-top: 10vh;
   border: 1px solid black;
@@ -27,6 +28,7 @@ export const List = styled.ul`
   justify-content: center;
   gap: 3rem;
   margin-top: 20%;
+  margin-bottom: 100px;
   padding: 0;
   border: solid 1px;
   text-align: center;
