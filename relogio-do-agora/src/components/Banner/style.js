@@ -15,7 +15,7 @@ export const Card = styled.div`
     align-items: center ;
     font-family: 'Inter', 'Times New Roman', Times, serif;
     max-width: 15vw;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 10px;
     /* padding: 10px; */
 `
@@ -32,3 +32,9 @@ width: fit-content;
 text-align: center;
 
 `
+
+export const Label = styled.p`
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+`;
