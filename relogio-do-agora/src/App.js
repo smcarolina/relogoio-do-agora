@@ -1,9 +1,10 @@
 import React from 'react'
+import Clock from './components/Countdown/Clock';
 
 const App = () => {
   return (
     <div>
-      Home
+      <Clock/>
     </div>
   );
 }
