@@ -23,8 +23,8 @@ const cards = [
 const Banner = () => {
   return (
     <InfoBanner>
-      {cards.map((card) => (
-        <Card>
+      {cards.map((card, index) => (
+        <Card key={index}>
           <Item>{card.item}</Item>
           <Label>{card.label}</Label>
         </Card>

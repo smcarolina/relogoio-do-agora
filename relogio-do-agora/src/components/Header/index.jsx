@@ -26,8 +26,8 @@ const Header = () => {
     <StyledComponent.HeaderContainer>
       <StyledComponent.Logo src={LogoImg} />
       <StyledComponent.Nav>
-        {links.map((link) => (
-          <StyledComponent.Link href={link.href}>
+        {links.map((link, index) => (
+          <StyledComponent.Link href={link.href} key={index}>
             {link.text}
           </StyledComponent.Link>
         ))}
