@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import Countdown from "./countdown";
-import { Item, List, TimeSlot, TimeSlotLabel } from "./style";
+import Countdown from "../../../../utils/countdown";
+import { Item, List, TimeSlot, TimeSlotLabel } from "../../style";
 
 const FINAL_DATE = "13 May 2050 20:00:00 GMT-0300";
 const finalDateInstance = new Date(FINAL_DATE);

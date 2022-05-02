@@ -2,29 +2,31 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   position: fixed;
   width: 100%;
-  height: 75px;
+  height: 10vh;
   left: 0px;
   top: 0px;
-  padding-left: 20px;
   background-color: white;
   z-index: 1;
 `;
 
 export const Logo = styled.img`
-  height: 100%;
+  height: 8vh;
   /* margin-left: 20px; */
 `;
 
 export const Nav = styled.nav`
   width: 100%;
   height: 100%;
+  padding: 4rem;
   font-family: "Cardo";
-  font-weight: 400;
   font-size: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 

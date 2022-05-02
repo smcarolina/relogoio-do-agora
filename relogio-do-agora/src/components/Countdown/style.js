@@ -5,9 +5,10 @@ export const ClockContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  height: 90vh;
+  height: fit-content;
   align-items: center;
   margin-top: 10vh;
-  /* border: 1px solid black; */
   position: relative;
 `;
 export const Title = styled.h1`
@@ -16,7 +17,8 @@ export const Title = styled.h1`
 
 export const BannerContainer = styled.img`
   position: absolute;
-  width: 100%;
+  width: inherit;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: -1;
@@ -27,10 +29,9 @@ export const List = styled.ul`
   display: flex;
   justify-content: center;
   gap: 3rem;
-  margin-top: 20%;
-  margin-bottom: 100px;
+  margin-top: 15%;
+  margin-bottom: 5rem;
   padding: 0;
-  /* border: solid 1px; */
   text-align: center;
 `;
 
